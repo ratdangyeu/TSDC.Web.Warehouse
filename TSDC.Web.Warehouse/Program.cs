@@ -1,7 +1,7 @@
 using AutoMapper;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using TSDC.SharedMvc.Warehouse.Infrastructure.MappingProfiles;
+using TSDC.SharedMvc.Warehouse.Infrastructure;
 using TSDC.SharedMvc.Warehouse.Models;
 
 var builder = WebApplication.CreateBuilder(args);
